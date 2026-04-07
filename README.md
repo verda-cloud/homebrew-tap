@@ -1,6 +1,6 @@
 # homebrew-tap
 
-Homebrew formulae and Scoop manifests for [Verda](https://github.com/verda-cloud/verda) CLI.
+Homebrew formulae and Scoop manifests for [Verda CLI](https://github.com/verda-cloud/verda-cli).
 
 ## Install
 
@@ -8,14 +8,14 @@ Homebrew formulae and Scoop manifests for [Verda](https://github.com/verda-cloud
 
 ```sh
 brew tap verda-cloud/tap
-brew install verda
+brew install verda-cli
 ```
 
 ### Windows (Scoop)
 
 ```sh
 scoop bucket add verda https://github.com/verda-cloud/homebrew-tap
-scoop install verda
+scoop install verda-cli
 ```
 
 ## Structure
