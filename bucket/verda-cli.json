@@ -1,0 +1,22 @@
+{
+    "version": "1.4.1",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/verda-cloud/verda-cli/releases/download/v1.4.1/verda_1.4.1_windows_amd64.zip",
+            "bin": [
+                "verda.exe"
+            ],
+            "hash": "6bb7148b5cee47085053b9f9831063f04c58b31dd120a7c546946d37f8a84943"
+        },
+        "arm64": {
+            "url": "https://github.com/verda-cloud/verda-cli/releases/download/v1.4.1/verda_1.4.1_windows_arm64.zip",
+            "bin": [
+                "verda.exe"
+            ],
+            "hash": "50b657de6cb8fe613a7dc7e8c0774995f719aea0d89c81ce978488b32a2ed464"
+        }
+    },
+    "homepage": "https://github.com/verda-cloud/verda-cli",
+    "license": "Apache-2.0",
+    "description": "Verda CLI"
+}
