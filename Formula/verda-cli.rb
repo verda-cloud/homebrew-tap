@@ -5,21 +5,21 @@
 class VerdaCli < Formula
   desc "Verda CLI"
   homepage "https://github.com/verda-cloud/verda-cli"
-  version "1.6.1"
+  version "1.6.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.1/verda_1.6.1_darwin_amd64.tar.gz"
-      sha256 "51f823a302634f9a2730a6b375047c595b874410ab8c858cb169330e05e4cbba"
+      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.2/verda_1.6.2_darwin_amd64.tar.gz"
+      sha256 "839d301996d1efa2cd67cf6afa8a38831930182b5c433e883d6b3af09467cf71"
 
       define_method(:install) do
         bin.install "verda"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.1/verda_1.6.1_darwin_arm64.tar.gz"
-      sha256 "7552f731a3aefafae0ad04a2c93c8245c7dc5f3ee382a7e8ef93c03c630f11ca"
+      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.2/verda_1.6.2_darwin_arm64.tar.gz"
+      sha256 "228f15eb715287d5ae1243e3dfe88cef00fe778d90cb36838c2c9aff47e31645"
 
       define_method(:install) do
         bin.install "verda"
@@ -29,15 +29,15 @@ class VerdaCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.1/verda_1.6.1_linux_amd64.tar.gz"
-      sha256 "bc4b3c747c87a9cbbc35c6ab6849b5ce1ce43e3875e8d92272fcede82d223bc9"
+      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.2/verda_1.6.2_linux_amd64.tar.gz"
+      sha256 "b62c12ffa38f79711b2019fbe612743e3ab256f8de073827d56d86f9cdee3603"
       define_method(:install) do
         bin.install "verda"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.1/verda_1.6.1_linux_arm64.tar.gz"
-      sha256 "57aa6e9de084a8ee9753a2bd71aa86b82af527252a58a6f9f49546ccb357aa4f"
+      url "https://github.com/verda-cloud/verda-cli/releases/download/v1.6.2/verda_1.6.2_linux_arm64.tar.gz"
+      sha256 "b6f462efcf91f2acce1cbb1d9f2f400c60e4127748b7eb0c5bd2153c6e21459b"
       define_method(:install) do
         bin.install "verda"
       end
