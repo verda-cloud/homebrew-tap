@@ -1,19 +1,19 @@
 {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/verda-cloud/verda-cli/releases/download/v1.8.0/verda_1.8.0_windows_amd64.zip",
+            "url": "https://github.com/verda-cloud/verda-cli/releases/download/v1.8.1/verda_1.8.1_windows_amd64.zip",
             "bin": [
                 "verda.exe"
             ],
-            "hash": "833adb58cf2d52b3078e51803173d06c2d6c4c373d613bd4c7239e168cf73fd9"
+            "hash": "9fd9d66f11dd8d411ab762477d37da0b06950effaf5e0bc1f31b05df22a101d7"
         },
         "arm64": {
-            "url": "https://github.com/verda-cloud/verda-cli/releases/download/v1.8.0/verda_1.8.0_windows_arm64.zip",
+            "url": "https://github.com/verda-cloud/verda-cli/releases/download/v1.8.1/verda_1.8.1_windows_arm64.zip",
             "bin": [
                 "verda.exe"
             ],
-            "hash": "5c03181d126e341fd19dfc80c30b9c3e379a66adbd35489fc0c7c7a1de6bb2d1"
+            "hash": "89d01c5480d5d704bc4e9f2fe0d26d2a6321adf30e0a42863c38ab46ec6187e6"
         }
     },
     "homepage": "https://github.com/verda-cloud/verda-cli",
